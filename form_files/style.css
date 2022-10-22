@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+
+padding: 20px;
+
+background-color: #53B4FF;
+}
+
+.menu{width: 50%;margin: auto;}
+
+.menu ul{
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;
+}
+
+.menu ul li{
+    
+list-style: none;
+}
+
+.menu ul li a{
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: white;
+    
+font-size: 15px;
+}
+
+.menu ul li a img{
+    
+}
+
+.content{
+
+display: flex;
+
+/* height: 100vh; */
+
+/* justify-content: space-between; */
+}
+
+.content_image{
+
+background-color: #53B4FF;
+
+width: 40%;
+
+
+}
+.content_image img{
+    
+width: 100%;
+    
+
+}
+.form_part{
+
+width: 60%;
+
+background-color: #008BFF;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.start{
+
+width: 30%;
+
+justify-content: center;
+}
+.start h1{color: #fff;}
+.start p{
+    
+color: #fff;
+    
+padding: 15px 0px 30px 0px;
+}
+.start h5{
+    
+text-transform: capitalize;
+    
+font-size: 15px;
+    
+color: #fff;
+    
+padding-bottom: 10px;
+}
+.start form{
+}
+.start form input{
+    
+width: 100%;
+    
+margin-bottom: 5px;
+    
+padding: 20px 0px 15px 5px;
+    
+text-transform: uppercase;
+}
+.start form input[type="submit"]{
+
+width: auto;
+
+/* padding: 0px; */
+
+padding: 15px 15px 15px 15px;
+
+color: #008BFF;
+}
+
+
+.start ul{
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 20px 0px 5px 0px;
+}
+
+.start ul li{
+
+list-style: none;
+
+color: white;
+}
+
+.start ul li a{
+
+color: white;
+
+text-decoration: none;
+}
